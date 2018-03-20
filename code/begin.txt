@@ -1,0 +1,6 @@
+sudo python3 retrain_new.py --model_dir ./inception --image_dir ./train_image --output_labels labels.txt --output_graph output.pb --how_many_training_steps 500
+
+
+
+
+error_solution:sudo find / -name ".DS_Store" -depth -exec rm {} \;
